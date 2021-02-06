@@ -18,8 +18,8 @@
     # Only if you are doing drive (leave empty "[]" if not)
     "rightMotorsInverted": [False, False],
     # Encoder edges-per-revolution (*NOT* cycles per revolution!)
-    # For the CTRE Mag Encoder, use 16384 (4 * 4096 = 16384)
-    "encoderEPR": 16384,
+    # For the CTRE Mag Encoder, use 4096 (4 * 1024 = 4096)
+    "encoderEPR": 4096,
     # Gearing accounts for the gearing between the encoder and the output shaft
     "gearing": 8.680555555,
     # Encoder ports (leave empty "[]" if not needed)
